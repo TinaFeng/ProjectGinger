@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: StoneTexture_Light
+  m_Name: Chocolate_Chip_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 15764179bce623e44bfab6a1b39d419c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a16c2267ce717044e8e01ce46e28d1ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -32,4 +32,4 @@ MonoBehaviour:
     e33: 1
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
-  m_ColliderType: 0
+  m_ColliderType: 1
