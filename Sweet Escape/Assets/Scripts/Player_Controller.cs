@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player_Controller : MonoBehaviour {
 
     public float speed = 5f;
-
+	public List<string> items = new List<string>();
     float current_speed_x, current_speed_y;
 
     BoxCollider2D self;
@@ -19,6 +19,14 @@ public class Player_Controller : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Player")
             Physics2D.IgnoreCollision(collision.collider, self);
+		if (collision.gameObject.tag == "Item") {
+			items.Add (collision.gameObject.name);
+			Destroy (collision.gameObject);
+		}
+		if (collision.gameObject.tag == "Door" && items.Contains ("Key")) {
+			items.Remove ("Key");
+			Destroy (collision.gameObject);
+		}
     }
 
     // Update is called once per frame
