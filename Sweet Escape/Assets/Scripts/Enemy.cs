@@ -6,9 +6,11 @@ using UnityEngine.SceneManagement;
 public class Enemy: MonoBehaviour {
 
 	public float speed;
+    public GameObject Player1;
+    public GameObject Player2;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -17,12 +19,24 @@ public class Enemy: MonoBehaviour {
 		gameObject.transform.Translate (Time.deltaTime * Vector2.right * gameObject.transform.localScale.x * speed);
 	}
 
-	void OnCollisionEnter2D(Collision2D col){
-		if (col.gameObject.tag == "Player") {
-			//killplayer
-		}
-		if (col.gameObject.tag == "Wall") {
-			gameObject.transform.localScale = new Vector2 (-gameObject.transform.localScale.x, gameObject.transform.localScale.y);
-		}
+
+    void OnCollisionEnter2D(Collision2D collision){
+        if (collision.gameObject.tag == "Player")
+        {
+            if (collision.gameObject.name == "Player1")
+            {
+                Destroy(collision.gameObject);
+                Instantiate(Player1);
+            }
+
+            else
+            {
+
+                Destroy(collision.gameObject);
+                Instantiate(Player2);
+            }
+        }
+        gameObject.transform.localScale = new Vector2 (-gameObject.transform.localScale.x, gameObject.transform.localScale.y);
+		
 	}
 }

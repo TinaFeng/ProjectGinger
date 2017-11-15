@@ -27,6 +27,7 @@ public class Player_Controller : MonoBehaviour {
 			items.Remove ("Key");
 			Destroy (collision.gameObject);
 		}
+
     }
 
     // Update is called once per frame
