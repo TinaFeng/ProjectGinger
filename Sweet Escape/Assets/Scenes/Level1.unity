@@ -336,9 +336,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6028248c981f47758416eafb113027a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  p1: {fileID: 0}
+  p2: {fileID: 0}
   speed: 1
-  Player1: {fileID: 1590868365305018, guid: 16b2925ce2c7c0944986d3b12da9de1e, type: 2}
-  Player2: {fileID: 1560383011876108, guid: c046149b393fbb24ca85576aad77c92a, type: 2}
+  had_key1: 0
+  had_key2: 0
+  Player1: {fileID: 114550818745538596, guid: 16b2925ce2c7c0944986d3b12da9de1e, type: 2}
+  Player2: {fileID: 114962161341459734, guid: c046149b393fbb24ca85576aad77c92a, type: 2}
 --- !u!61 &175617086
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1145,6 +1149,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 114870943528370370, guid: ed2c71bf55ed646cf9eb057f9dd10243,
+        type: 2}
+      propertyPath: Player1
+      value: 
+      objectReference: {fileID: 114550818745538596, guid: 16b2925ce2c7c0944986d3b12da9de1e,
+        type: 2}
+    - target: {fileID: 114870943528370370, guid: ed2c71bf55ed646cf9eb057f9dd10243,
+        type: 2}
+      propertyPath: Player2
+      value: 
+      objectReference: {fileID: 114962161341459734, guid: c046149b393fbb24ca85576aad77c92a,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ed2c71bf55ed646cf9eb057f9dd10243, type: 2}
   m_IsPrefabParent: 0

@@ -5,13 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class Enemy: MonoBehaviour {
 
+	public Player_Controller p1;
+	public Player_Controller_P2 p2;
 	public float speed;
-    public GameObject Player1;
-    public GameObject Player2;
+	public bool had_key1 = false;
+	public bool had_key2 = false;
+	public Player_Controller Player1;
+	public Player_Controller_P2 Player2;
 
     // Use this for initialization
     void Start () {
-		
+		p1 = FindObjectOfType<Player_Controller> ();
+		p2 = FindObjectOfType<Player_Controller_P2> ();
 	}
 	
 	// Update is called once per frame
@@ -25,15 +30,24 @@ public class Enemy: MonoBehaviour {
         {
 			if (collision.gameObject.name == "Player1" || collision.gameObject.name == "Player1(Clone)")
             {
+				if (p1.items.Contains ("Key")) {
+					had_key1 = true;
+				}
                 Destroy(collision.gameObject);
-                Instantiate(Player1);
+                p1 = Instantiate(Player1);
+				if (had_key1)
+					p1.items.Add ("Key");
             }
 
             else
             {
-
+				if (p2.items.Contains ("Key")) {
+					had_key2 = true;
+				}
                 Destroy(collision.gameObject);
-                Instantiate(Player2);
+                p2 = Instantiate(Player2);
+				if (had_key2)
+					p2.items.Add ("Key");
             }
         }
         gameObject.transform.localScale = new Vector2 (-gameObject.transform.localScale.x, gameObject.transform.localScale.y);
