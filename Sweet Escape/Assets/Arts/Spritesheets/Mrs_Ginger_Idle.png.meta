@@ -1,22 +1,11 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 865d61368eb0a4da1a7a455ddac43c1c
-timeCreated: 1511922322
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
-=======
-guid: 41688a0efa8287d49808cf629573ad33
-timeCreated: 1511922565
+guid: ef9e154870dfd1444a1b1df4ec6da7be
+timeCreated: 1511923754
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Mr_Ginger_Spritesheet_0
-    21300002: Mr_Ginger_Spritesheet_1
-    21300004: Mr_Ginger_Spritesheet_2
-    21300006: Mr_Ginger_Spritesheet_3
-    21300008: Mr_Ginger_Spritesheet_4
->>>>>>> 251f9a81cb242c7fe6398fe8b8fc7a035d2a6820
+    21300000: Mrs_Ginger_Idle_0
+    21300002: Mrs_Ginger_Idle_1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -44,11 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
-    filterMode: -1
-=======
     filterMode: 0
->>>>>>> 251f9a81cb242c7fe6398fe8b8fc7a035d2a6820
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -57,21 +42,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 1
-=======
   spriteMode: 2
->>>>>>> 251f9a81cb242c7fe6398fe8b8fc7a035d2a6820
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-<<<<<<< HEAD
-  spritePixelsToUnits: 100
-=======
   spritePixelsToUnits: 800
->>>>>>> 251f9a81cb242c7fe6398fe8b8fc7a035d2a6820
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -83,82 +60,45 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-<<<<<<< HEAD
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-=======
-    resizeAlgorithm: 1
-    textureFormat: -1
-    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Standalone
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Android
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: WebGL
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
->>>>>>> 251f9a81cb242c7fe6398fe8b8fc7a035d2a6820
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
-    sprites: []
-=======
     sprites:
     - serializedVersion: 2
-      name: Mr_Ginger_Spritesheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 800
-        width: 800
-        height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Mr_Ginger_Spritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 800
-        width: 800
-        height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Mr_Ginger_Spritesheet_2
+      name: Mrs_Ginger_Idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -172,7 +112,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Mr_Ginger_Spritesheet_3
+      name: Mrs_Ginger_Idle_1
       rect:
         serializedVersion: 2
         x: 800
@@ -185,7 +125,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
->>>>>>> 251f9a81cb242c7fe6398fe8b8fc7a035d2a6820
     outline: []
     physicsShape: []
   spritePackingTag: 
