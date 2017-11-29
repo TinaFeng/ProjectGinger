@@ -8324,47 +8324,9 @@ Prefab:
       propertyPath: m_Name
       value: Lady_PlaceHolder
       objectReference: {fileID: 0}
-    - target: {fileID: 212075713291515108, guid: c046149b393fbb24ca85576aad77c92a,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 6881b7be85773a54ea8d1bb664ee2ade,
-        type: 3}
-    - target: {fileID: 212075713291515108, guid: c046149b393fbb24ca85576aad77c92a,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 0.84125
-      objectReference: {fileID: 0}
-    - target: {fileID: 212075713291515108, guid: c046149b393fbb24ca85576aad77c92a,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 0.935
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c046149b393fbb24ca85576aad77c92a, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1457267923 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1560383011876108, guid: c046149b393fbb24ca85576aad77c92a,
-    type: 2}
-  m_PrefabInternal: {fileID: 1457267922}
---- !u!95 &1457267924
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1457267923}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1a721d2e95c4f8045837257ada6e10ea, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1866337120
 GameObject:
   m_ObjectHideFlags: 0
