@@ -1,13 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 928ec4723e9504a22bc78fbd712f3f98
-timeCreated: 1511922323
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
-=======
-guid: 6881b7be85773a54ea8d1bb664ee2ade
-timeCreated: 1511922457
+timeCreated: 1511924873
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -15,7 +8,6 @@ TextureImporter:
     21300002: Mrs_Ginger_Spritesheet_1
     21300004: Mrs_Ginger_Spritesheet_2
     21300006: Mrs_Ginger_Spritesheet_3
->>>>>>> 251f9a81cb242c7fe6398fe8b8fc7a035d2a6820
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -43,12 +35,8 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
-    filterMode: -1
-=======
     filterMode: 0
->>>>>>> 251f9a81cb242c7fe6398fe8b8fc7a035d2a6820
-    aniso: -1
+    aniso: 1
     mipBias: -1
     wrapU: 1
     wrapV: 1
@@ -56,22 +44,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 1
-  spriteExtrude: 1
-=======
   spriteMode: 2
-  spriteExtrude: 0
->>>>>>> 251f9a81cb242c7fe6398fe8b8fc7a035d2a6820
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-<<<<<<< HEAD
-  spritePixelsToUnits: 100
-=======
   spritePixelsToUnits: 800
->>>>>>> 251f9a81cb242c7fe6398fe8b8fc7a035d2a6820
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -90,11 +69,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
-=======
   - buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -129,10 +103,10 @@ TextureImporter:
       name: Mrs_Ginger_Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 62
-        y: 852
-        width: 673
-        height: 748
+        x: 0
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,10 +117,10 @@ TextureImporter:
       name: Mrs_Ginger_Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 928
-        y: 851
-        width: 661
-        height: 749
+        x: 800
+        y: 800
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,10 +131,10 @@ TextureImporter:
       name: Mrs_Ginger_Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 62
-        y: 52
-        width: 673
-        height: 748
+        x: 0
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,16 +146,15 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 800
-        y: 56
-        width: 646
-        height: 744
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
->>>>>>> 251f9a81cb242c7fe6398fe8b8fc7a035d2a6820
     outline: []
     physicsShape: []
   spritePackingTag: 
