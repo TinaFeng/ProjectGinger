@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player_Controller : MonoBehaviour {
-
+    Animator anim;
     public float speed = 5f;
 	public List<string> items = new List<string>();
     float current_speed_x, current_speed_y;
 
+    bool moving;
     BoxCollider2D self;
 	// Use this for initialization
 	void Start () {
         
         self = this.GetComponent<BoxCollider2D>();
+        anim = this.GetComponent<Animator>();
 	}
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -35,11 +37,28 @@ public class Player_Controller : MonoBehaviour {
         current_speed_x = Input.GetAxis("Horizontal") * speed;
         current_speed_y = Input.GetAxis("Vertical") * speed;
 
+        if (current_speed_x != 0 || current_speed_y != 0)
+        {
+            moving = true;
+        }
+        else
+        {
+            moving = false;
+        }
+
 	}
 
     private void FixedUpdate()
     {
+        if (moving)
+        {
+            anim.SetBool("moving", true);
 
+        }
+        else
+        {
+            anim.SetBool("moving", false);
+        }
         this.transform.Translate(Time.deltaTime * current_speed_x * Vector2.right);
         this.transform.Translate(Time.deltaTime * current_speed_y * Vector2.up);
     }
