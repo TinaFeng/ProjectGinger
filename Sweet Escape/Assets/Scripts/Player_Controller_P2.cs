@@ -27,10 +27,12 @@ public class Player_Controller_P2 : MonoBehaviour {
         if (collision.gameObject.tag == "Player")
             Physics2D.IgnoreCollision(collision.collider, self);
 		if (collision.gameObject.tag == "Item") {
-			items.Add (collision.gameObject.name);
+            Debug.Log("Key added");
+            items.Add (collision.gameObject.name);
 			Destroy (collision.gameObject);
 		}
 		if (collision.gameObject.tag == "Door" && items.Contains ("Key")) {
+            Debug.Log("Player hit door");
 			items.Remove ("Key");
 			Destroy (collision.gameObject);
 		}

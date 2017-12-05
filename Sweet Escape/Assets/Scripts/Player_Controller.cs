@@ -22,11 +22,13 @@ public class Player_Controller : MonoBehaviour {
         if (collision.gameObject.tag == "Player")
             Physics2D.IgnoreCollision(collision.collider, self);
 		if (collision.gameObject.tag == "Item") {
+            Debug.Log("Key added");
 			items.Add (collision.gameObject.name);
 			Destroy (collision.gameObject);
 		}
 		if (collision.gameObject.tag == "Door" && items.Contains ("Key")) {
-			items.Remove ("Key");
+            Debug.Log("Player hit door");
+            items.Remove ("Key");
 			Destroy (collision.gameObject);
 		}
 
